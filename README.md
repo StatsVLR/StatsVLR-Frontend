@@ -1,5 +1,3 @@
-Got it! Here's the updated README to reflect that StatsVLR was built using Astro and Svelte:
-
 **StatsVLR**
 
 ---
