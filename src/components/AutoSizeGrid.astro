@@ -1,0 +1,25 @@
+---
+import { HTMLAttributes } from "astro/types";
+
+export type Props = HTMLAttributes<"div">;
+---
+
+<div {...Astro.props}>
+    <slot />
+</div>
+
+<style>
+    div {
+        display: inline-grid;
+        grid-auto-flow: column;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    @media screen and (max-width: 800px) {
+        div {
+            grid-auto-flow: row;
+            grid-template-rows: 1fr;
+        }
+    }
+</style>

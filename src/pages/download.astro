@@ -1,0 +1,24 @@
+---
+export const prerender = true;
+
+import Layout from "../layouts/Layout.astro";
+
+import AndroidTab from "components/pages/download/AndroidTab.astro";
+import DownloadTabs from "components/pages/download/index.svelte";
+---
+
+<Layout
+    title="Download StatsVLR"
+    description="Download StatsVLR for your Android"
+>
+    <DownloadTabs client:load>
+        <h1 class="p-page-title" slot="title">Download StatsVLR</h1>
+        <AndroidTab slot="androidTab" />
+    </DownloadTabs>
+</Layout>
+
+<style>
+    h1 {
+        color: var(--accentRed);
+    }
+</style>
