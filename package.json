@@ -1,29 +1,27 @@
 {
-    "name": "statsvlr-site",
-    "type": "module",
-    "private": true,
-    "license": "AGPL-3.0",
-    "version": "1.0.0",
-    "scripts": {
-        "dev": "astro dev",
-        "start": "astro dev",
-        "build": "astro build",
-        "preview": "astro preview",
-        "astro": "astro"
-    },
-    "dependencies": {
-        "@astrojs/cloudflare": "^6.6.1",
-        "@astrojs/mdx": "^0.18.4",
-        "@astrojs/netlify": "^2.4.0",
-        "@astrojs/sitemap": "^1.4.0",
-        "@astrojs/svelte": "^2.2.0",
-        "@astrojs/vercel": "^3.7.2",
-        "astro": "^2.8.3",
-        "astro-icon": "^0.8.1",
-        "normalize.css": "^8.0.1",
-        "svelte": "^3.59.2"
-    },
-    "devDependencies": {
-        "@cloudflare/workers-types": "^4.20230710.1"
-    }
+  "name": "nuxt-ui-pro-template-landing",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@iconify-json/heroicons": "^1.1.21",
+    "@iconify-json/simple-icons": "^1.1.101",
+    "@nuxt/content": "^2.12.1",
+    "@nuxt/fonts": "^0.7.0",
+    "@nuxt/ui-pro": "^1.2.0",
+    "nuxt": "^3.11.2"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^0.3.10",
+    "eslint": "^9.2.0",
+    "vue-tsc": "^2.0.16"
+  }
 }
