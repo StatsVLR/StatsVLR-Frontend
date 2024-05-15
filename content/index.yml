@@ -1,0 +1,53 @@
+title: StatsVLR
+description: StatsVLR is an Android application designed for Valorant enthusiasts who are passionate about tracking events and matches within the game
+hero:
+  title: StatsVLR
+  description:  This app serves as a comprehensive platform for accessing detailed statistics, match histories, player profiles, and much more, offering a superior experience compared to the web version of vlr.gg.
+  headline:
+    label: Valorant Esport Stats
+    to: #
+    icon: i-heroicons-arrow-top-right-on-square-20-solid
+  links:
+    - label: Download
+      icon: i-heroicons-arrow-right-20-solid
+      trailing: true
+      to: 'https://github.com/StatsVLR/StatsVLR-Android/releases/download/v1.0.0/StatsVLR.apk'
+      size: xl
+    - label: Clone the website
+      icon: i-simple-icons-github
+      size: xl
+      color: gray
+      to: https://github.com/StatsVLR/StatsVLR-Website
+      target: _blank
+logos:
+  title: Trusted by the world's best
+  icons:
+    - i-simple-icons-amazonaws
+    - i-simple-icons-heroku
+    - i-simple-icons-netlify
+    - i-simple-icons-vercel
+    - i-simple-icons-cloudflare
+features:
+  headline: Features
+  title: Why install this app?
+  description: Reasons to install this app on your android device.
+  items:
+    - title: Easy to use
+      description: Clean and minimal UI for easy navigation.
+      icon: i-heroicons-cog
+    - title: Reliable
+      description: The stats are directly fetched from vlr.gg
+      icon: i-heroicons-check
+    - title: Secure
+      description: Your data remains secure on vlr.gg's data servers.
+      icon: i-heroicons-lock-closed
+faq:
+  title: Frequently asked questions
+  items:
+    - label: How can I trust this service?
+      content: StatsVLR uses vlr.gg API to get player and match stats.
+      defaultOpen: true
+    - label: Is StatsVLR free to use?
+      content: Yes StatsVLR is free to use and will always remain to be free.
+    - label: Can I login to statsVLR and use vlr.gg forums?
+      content: Yes, we provide you the ability to login to your account and use the forums.
